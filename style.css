@@ -1,0 +1,246 @@
+:root{
+  
+  --bgColor1 : #1a1b1e;
+  --bgColor2 : #141517; 
+  --shadowColor : #3d3e42;
+  --textColor : rgb(217, 217, 217);
+  --hoverColor : #141517;
+  
+}
+
+/*  
+
+  --bgColor1 : #ffff;
+  --bgColor2 : #f1f1f1;
+  --textColor : rgb(64, 64, 64);
+  --shadowColor : #b9babd;
+  --hoverColor : #bcbbbb;
+
+  
+  */
+  
+
+
+body{
+  background-color: var(--bgColor2);
+}
+ul {
+  list-style-type: none;
+}
+
+
+.sidebar {
+  width: 300px;
+  margin-top: 70px;
+  background-color: var(--bgColor1);
+  height: 100%;
+  font-size: .9rem;
+  box-shadow:0.5px -0.5px  var(--shadowColor);
+  color: var(--textColor);
+  z-index: 1;
+}
+
+.sidebar2{
+  width: 100%;
+}
+
+.sidebar ul, .sidebar2 ul{
+  padding: 20px;
+}
+
+.sidebar ul li{
+  padding: 10px;
+}
+
+.sidebar2 ul{
+
+  width: 100%;
+}
+.sidebar2 ul li{
+  padding: 10px;
+}
+
+.sidebar ul .nav-non:hover,.sidebar2 .nav-non:hover, .humberger:hover{
+  background-color: var(--hoverColor);
+  cursor: pointer;
+}
+
+.sidebar ul .nav-non a, .sidebar2 ul .nav-non a{
+  text-decoration: none;
+  color: var(--textColor);
+  word-spacing: 10px;
+}
+.main-content {
+  margin-top: 70px;
+  margin-left: 300px;
+  background-color: var(--bgColor2);
+  width: 100%;
+}
+
+.nav-active{
+  background-color: #0b7eac;
+}
+
+.nav-active a{
+  color: white;
+  text-decoration: none;
+  word-spacing: 10px;
+}
+
+.header, .footer{
+  height: 70px;
+  background-color: var(--bgColor1);
+  color: var(--textColor);
+  box-shadow:0 .5px var(--shadowColor);
+  font-size: .7rem;
+}
+
+.footer{
+  box-shadow:0 -0.5px var(--shadowColor);
+  height: 50px;
+}
+
+
+.front{
+  width: 100%;
+  border-radius: 5px;
+  background-image: url(img/Muhammad\ Yusuf.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  color:rgb(217, 217, 217) ;
+
+}
+
+.front a{
+  background-color: #0081B4;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.front a:hover{
+  background-color: #074056;
+}
+
+.humberger{
+  padding: 5px;
+  margin-right: 10px;
+  display: none;
+
+
+}
+
+.bg-color1{
+  background-color: var(--bgColor1);
+}
+
+
+
+.offcanvas{
+  display: none;
+  margin-top: 70px;
+  background-color: var(--bgColor1);
+  z-index: 1;
+}
+
+.btn-dark{
+  right: 15px;
+  bottom: 15px;
+  border-radius: 100px;
+  background-color: var(--bgColor2);
+  padding: 10px 5px;
+  padding-left: 10px;
+  cursor: pointer;
+  
+}
+
+.btn-dark i{
+  margin-left: 10px;
+  border-radius: 100%;
+  color: black;
+  padding: 5px;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.bg-grey{
+  background-color: grey;
+}
+
+
+.card-values{
+  color: var(--textColor);
+}
+
+.card-values .icon-values{
+  background-color: #0081B4;
+  width: 40px;
+  border-radius: 5px;
+  color: rgb(217, 217, 217) ;
+  text-align: center;
+}
+
+.desc-values{
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+
+
+.core-values img{
+  box-shadow:.5px .5px var(--shadowColor);
+}
+
+
+
+.text-color{
+  color: var(--textColor);
+}
+
+.btn-demo-project{
+  background-color: #0081B4;
+  color: white;
+  text-decoration: none;
+  width: 70px;
+  margin-left: 10px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  transition: all .5s;
+}
+
+
+.btn-demo-project:hover{
+  background-color: #074056;
+  color: white;
+  transition: all .5s;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+  .sidebar{
+    display:none;
+  }
+
+  .main-content{
+    margin-left: 0;
+  }
+
+ 
+
+  .humberger{
+    display: inline;
+  }
+
+  .offcanvas{
+    display: block;
+  }
+}
