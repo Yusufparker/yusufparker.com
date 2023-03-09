@@ -59,7 +59,7 @@ const mainContaint=(isi)=> $('.main-content').html(isi)
 const homepage = `<div class="front mb-5">
 <div class="desc  p-5">
     <h1 class="fw-bold">Muhammad Yusuf</h1>
-    <p>Student of Institut Teknologi Indonesia. <br> Your life doesn't get better by chance. It gets better by a change..</p>
+    <p>Undergraduate Student of Institut Teknologi Indonesia. <br> Your life doesn't get better by chance. It gets better by a change..</p>
     <br><br>
     <a href="https://www.linkedin.com/in/muhammad-yusuf-957651240/" target="_blank" class="text-decoration-none"><i class="bi bi-linkedin"></i> My LinkedIn</a>
     </div>  
