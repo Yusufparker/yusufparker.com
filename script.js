@@ -133,9 +133,21 @@ const experiencespage = `<div class="container text-color mb-5 certificate">
   </div>
 </div>
 </div>`
-const projectpage = `<div class="container">
-<h3 class="text-color">Programing</h3>
+const projectpage = `
+<div class="container">
 <div class="row mt-4">
+  <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
+    <div class="row">
+      <img src="img/projek/programing/youtube clone.png" alt="" class="w-100">
+    </div>
+    <div class="row text-color mt-2">
+      <p>Youtube Clone</p>
+    </div>
+    <div class="row">
+      <a href="https://yusufparker.github.io/youtube-clone/" target="_blank" class="btn-demo-project">Visit</a>
+    </div>
+  </div>
+  
   <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
       <img src="img/projek/programing/nazeera.store.png" alt="" class="w-100">
@@ -147,53 +159,72 @@ const projectpage = `<div class="container">
       <a href="https://www.nazeera.store/" target="_blank" class="btn-demo-project">Visit</a>
     </div>
   </div>
-  <div class="col-md-3 bg-color1 p-3 shadow mb-5 me-5">
+
+  <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
-      <img src="img/projek/programing/QuranKu.png" alt="" class="w-100">
+      <img src="img/projek/programing/Quranku.png" alt="" class="w-100">
     </div>
     <div class="row text-color mt-2">
-      <p>QuranKu Website</p>
+      <p>Quranku Website</p>
     </div>
     <div class="row">
       <a href="https://yusufparker.github.io/QuranKu/" target="_blank" class="btn-demo-project">Visit</a>
     </div>
   </div>
-  <div class="col-md-3 bg-color1 p-3 shadow mb-5">
+
+
+  <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
+    <div class="row">
+      <img src="img/projek/programing/cafe kasir.png" alt="" class="w-100">
+    </div>
+    <div class="row text-color mt-2">
+      <p>Kasir Cafe VB.Net</p>
+    </div>
+    <div class="row">
+      <a href="https://github.com/Yusufparker/kasir-cafe/" target="_blank" class="btn-demo-project">Visit</a>
+    </div>
+  </div>
+
+
+  <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
+    <div class="row">
+      <img src="img/projek/programing/My Movies DB.png" alt="" class="w-100">
+    </div>
+    <div class="row text-color mt-2">
+      <p>My Movies DB</p>
+    </div>
+    <div class="row">
+      <a href="https://yusufparker.github.io/MyMoviesDB--API-implementation/" target="_blank" class="btn-demo-project">Visit</a>
+    </div>
+  </div>
+
+
+  <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
       <img src="img/projek/programing/portfolio.png" alt="" class="w-100">
     </div>
     <div class="row text-color mt-2">
-      <p>My Other Portfolio</p>
+      <p>Portfolio Template 1</p>
     </div>
     <div class="row">
       <a href="https://yusufparker.github.io/yusufparker.portfolio.github.io/" target="_blank" class="btn-demo-project">Visit</a>
     </div>
   </div>
-</div>
-<h3 class="text-color mt-4">Graphic Design</h3>
-<div class="row mt-4 mb-5">
-  <div class="col-md-4 mb-3">
-    <img src="img/projek/graphic design/dicoding-event.jpg" alt="" class="w-100">
-  </div>
-  <div class="col-md-8">
+
+
+  <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
-      <div class="col-4">
-        <img src="img/projek/graphic design/poster anti narkoba.jpg" alt="" class="w-100">
-      </div>
-      <div class="col-4">
-        <img src="img/projek/graphic design/tugas agama_infografis tokoh ilmuan muslim.jpg" alt="" class="w-100">
-      </div>
-      <div class="col-4">
-        <img src="img/projek/graphic design/ig_post.jpg" alt="" class="w-100">
-      </div>
+      <img src="img/projek/programing/wedding invitation.png" alt="" class="w-100">
     </div>
-    <div class="row mt-3">
-      <div class="col mb-3">
-        <img src="img/projek/graphic design/logo nazeera merah.png" alt="" class="w-100">
-      </div>
+    <div class="row text-color mt-2">
+      <p>Wedding Invitation</p>
+    </div>
+    <div class="row">
+      <a href="https://yusufparker.github.io/wedding-invitation1/" target="_blank" class="btn-demo-project">Visit</a>
     </div>
   </div>
-</div>
+
+
 </div>`
 const contactspage = `<div class="container mb-3">
 <h3 class="text-color">Get In Touch</h3>
@@ -238,6 +269,12 @@ const contactspage = `<div class="container mb-3">
   </div>
 </div>
 </div>`
+
+
+
+
+
+
 const darkMode = ()=>{
     $('.btn-dark').html('Dark Mode <i class="bi bi-moon dark-icon bg-yellow"></i>');
     $('body').css('--bgColor1', '#1a1b1e');
