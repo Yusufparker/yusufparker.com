@@ -153,16 +153,16 @@ const projectpage = `
       <img src="img/projek/programing/nazeera.store.png" alt="" class="w-100">
     </div>
     <div class="row text-color mt-2">
-      <p>Nazeera Snack & Food</p>
+      <p>Nazeera Snack & Food (React JS)</p>
     </div>
     <div class="row">
-      <a href="https://www.nazeera.store/" target="_blank" class="btn-demo-project">Visit</a>
+      <a href="https://nazeerastore.muhammadyusuf73.repl.co/" target="_blank" class="btn-demo-project">Visit</a>
     </div>
   </div>
 
   <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
-      <img src="img/projek/programing/QuranKu.png" alt="" class="w-100">
+      <img src="img/projek/programing/Quranku.png" alt="" class="w-100">
     </div>
     <div class="row text-color mt-2">
       <p>Quranku Website</p>
@@ -226,7 +226,7 @@ const projectpage = `
 
 
 </div>`
-const contactspage = `<div class="container mb-3">
+const contactspage = `<div class="container mb-3 contact">
 <h3 class="text-color">Get In Touch</h3>
 <div class="row mt-5">
   <div class="col-md-5 mb-5">
