@@ -138,6 +138,18 @@ const projectpage = `
 <div class="row mt-4">
   <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
+      <img src="img/projek/programing/tes_fe.png" alt="" class="w-100">
+    </div>
+    <div class="row text-color mt-2">
+      <p>Tes Frontend Developer CTARSA</p>
+    </div>
+    <div class="row">
+      <a href="https://yusufparker.github.io/team.-test-front-end-CTARSA/" target="_blank" class="btn-demo-project">Visit</a>
+    </div>
+  </div> 
+  
+  <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
+    <div class="row">
       <img src="img/projek/programing/youtube clone.png" alt="" class="w-100">
     </div>
     <div class="row text-color mt-2">
@@ -146,7 +158,7 @@ const projectpage = `
     <div class="row">
       <a href="https://yusufparker.github.io/youtube-clone/" target="_blank" class="btn-demo-project">Visit</a>
     </div>
-  </div>
+  </div> 
   
   <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
