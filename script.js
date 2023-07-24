@@ -138,7 +138,7 @@ const projectpage = `
 <div class="row mt-4">
   <div class="col-md-3 bg-color1 p-3 shadow  mb-5 me-5">
     <div class="row">
-      <img src="img/projek/programing/tes_fe.png" alt="" class="w-100">
+      <img src="img/projek/programing/tes_fe.png.png" alt="" class="w-100">
     </div>
     <div class="row text-color mt-2">
       <p>Tes Frontend Developer CTARSA</p>
